@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>FORM</title>
+</head>
+<body>
+<h1>FEEDBACK FORM</h1> 
+<form>
+    <p>Name</p>
+    <label>Firstname:<input type="text" name="firstname" >  </label>
+    <label>Lastname:<input type="text" name="lastname" >   </label>
+    <label>Roll no:<input type="text" name="rollno" >   </label></br></br>
+
+    <fieldset>
+<legend>Gender</legend>
+<label>Male:<input type="radio" name="male" value="male">   </label>
+<label>Female:<input type="radio" name="female" value="female">  </label>
+<label>Other:<input type="radio" name="other" value="other">  </label>
+</fieldset></br></br>
+
+<fieldset>
+    <legend>Feedback</legend>
+    <label>Excellent<input type="checkbox" name="Feedback" value="Excellent"></label>
+    <label>Very Good<input type="checkbox" name="Feedback" value="Very Good"></label>
+    <label>Good<input type="checkbox" name="Feedback" value="Good"></label>
+    <label>Bad<input type="checkbox" name="Feedback" value="Bad"></label>
+
+</fieldset></br></br>
+<fieldset>
+     <legend>Education</legend>
+     <label>College name:<input type="text" name="college name"> </label>
+     <lable>University:<input type="text" name="university">  </lable></br>
+
+     <label for ="Department">    Department</label>
+     <select name="Department">
+        <option value="Electronics">ELEX</option>
+        <option value="Electronics and tell">EXTC</option>
+        <option value="Computer science">CS</option>
+        <option value="Instrumentation">INSTRU</option>
+        <option value="Mech">MECH</option>
+
+     </select>
+
+</fieldset>
+</br></br>
+<fieldset>
+    <legend>Personal details</legend>
+    <label>Email:<input type="email" name="email">  </label>
+    <label>Contact number:<input type="text" name="contact number">  </label>
+    <label>Address: </label>
+    <textarea rows="3" cols="70" name="address" id="address"></textarea>
+    <h3>Date in dd-mm-yyyy</h3>
+    <label for ="Start">Enter a date</label>
+    <input type="date" name="begin"
+    placeholder="dd-mm-yyyy" value=""
+    min="1997-01-01" max="2030-12-31">
+</fieldset></br></br>
+<input type="submit" name="submit">
+
+<input type="reset" name="reset">
+
+</form>
+
+
+</body>
+</html>
